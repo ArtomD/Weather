@@ -1,4 +1,4 @@
-<%@ page import="java.util.*" %><%@ page import="com.servlets.*" %>
+<%@ page import="java.util.*" %><%@ page import="com.servlets.*" %><%@ page import="com.SOAPutil.*" %>
 <%
 //call the java SOAP functions to get default data
 SOAPController Controller = new SOAPController();

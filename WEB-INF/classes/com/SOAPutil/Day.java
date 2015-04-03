@@ -1,5 +1,5 @@
-package com.servlets;
-import com.servlets.*;
+package com.SOAPutil;
+
 //This class is used to store the weather data that was recieved from the SOAP call
 public class Day {
 //variables to be used to store the data

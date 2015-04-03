@@ -1,6 +1,6 @@
 package com.servlets;
 
-import com.servlets.*;
+import com.SOAPutil.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;

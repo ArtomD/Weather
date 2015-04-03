@@ -1,4 +1,4 @@
-package com.servlets;
+package com.SOAPutil;
 
 import java.io.IOException;
 import java.io.StringReader;

@@ -1,5 +1,4 @@
-package com.servlets;
-import com.servlets.*;
+package com.SOAPutil;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -152,7 +151,7 @@ public class SOAPClient {
 	}
 
 //SOAP responce method
-//this method takes the generated soap body respnce and finds and extracts the relevant data
+//this method takes the generated soap body responce and finds and extracts the relevant data
 	public String[][] SOAPResponce() throws DOMException, SAXException, IOException, ParserConfigurationException{
 		
 		//parse down to the inner XML
