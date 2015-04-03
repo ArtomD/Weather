@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
+
+<web-app>
+
+<servlet>
+<servlet-name>encryptServlet</servlet-name>
+<servlet-class>com.servlets.encryptServlet</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>decryptServlet</servlet-name>
+<servlet-class>com.servlets.decryptServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>encryptServlet</servlet-name>
+<url-pattern>/encrypted</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>decryptServlet</servlet-name>
+<url-pattern>/decrypted</url-pattern>
+</servlet-mapping>
+
+</web-app>
